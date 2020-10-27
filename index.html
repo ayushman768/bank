@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Bank Atm UI
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <!-- UI header -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="img-logo">
+                        <img src="img/main-qimg-e45b3d12d624e009966466ff6a85b8d0.png" alt="" class="">
+                    </div>
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-4">
+                    <div class="support text-center">
+
+                    </div>
+                </div>
+                <!--/col-md-4-->
+                <div class="col-md-4 ">
+                    <div class="support text-right ">
+                        <p><b>Custmer Support</b></p>
+                        <p><b>1800 7622 8997</b></p>
+                    </div>
+                </div>
+                <!--/col-md-4-->
+
+            </div>
+            <!--/row-->
+        </div>
+        <!--/container-->
+    </header>
+    <section class="text-center " id="section">
+        <!-- PIN Sections start -->
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <div class="enter_pin ">
+                        <h1>Welcome To SBI ATM</h1>
+                        <p>The Banker To Every indian</p>
+                        <div class="enter_pin ">
+                            <h2>Open Your A/c"</h2>
+
+
+
+                            <br>
+
+                            <a href="#" onclick="add()">Add Account</a>
+                            <div class="form-ac" id="form_save">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="my-input">A/c</label>
+                                        <input type="text" id="addac" class="form-control">
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="my-input ">Name</label>
+                                        <input id="addname" type="text" placeholder="" class="form-control input">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="my-input ">Deposite</label>
+                                        <input id="adddeposite" type="text" placeholder="" class="form-control">
+                                    </div>
+                                    <a onclick="add()">Save A/c</a>
+                                </form>
+                            </div>
+                        </div>
+                        <!--/Pin Enter-feild-->
+                    </div>
+                    <!--/Heading-->
+
+                </div>
+                <!--/col-md-12-->
+            </div>
+            <!--/row-->
+        </div>
+        <!--/container-->
+    </section>
+    <article id="article">
+        <!-- start-secondpage for after enter pin -->
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-6 ">
+                    <div class="logo-text ">
+                        <h3><b>ATM</b></h3>
+                    </div>
+                </div>
+                <!--col-md-6-->
+                <div class="col-md-6 ">
+                    <div class="left-side text-right ">
+
+                        <img src="img/138-1383939_comment-choisir-sa-banque-en-ligne-logo-kartu.png " class="img-atm ">
+
+                        </b>
+                    </div>
+                </div>
+                <!--col-md-6-->
+            </div>
+            <!--/row-->
+        </div>
+
+        <!--/container-->
+
+
+    </article>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="main-div">
+
+                        <br>
+                        <h4><b>My Account</b></h4>
+
+                        <div class="Ac-details ">
+                            <p>Welcome</p>
+                            <span id="name"></span>
+                        </div>
+                        <div class="Ac-details">
+                            <p>Acccount Number</p>
+                            <span id="acnumber"></span>
+                        </div>
+                        <div class="Ac-details">
+                            <p>Wthdrawal Amnt</p>
+                            <span id="Wthdrawal"></span>
+                            <span id="addmore"></span>
+                        </div>
+                        <div class="Ac-details">
+                            <p>Deposite Amnt</p>
+                            <span id="Deposite"></span>
+
+                            <input type="text" id="deposite-val" class="form-control">
+                        </div>
+                        <div class="Ac-details">
+                            <p>Remaining Bal</p>
+                            <span id="d-re"></span>
+                            <br>
+                            <span id="remain"></span>
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!--/main-div-->
+                </div>
+                <!--/col-md-6-->
+                <div class="col-md-3">
+                    <div class="Bank_features">
+                        <a href="# " id="active-depo " class="btn-btn-primary " onclick="hide_show() ">Deposite</a>
+
+                    </div>
+
+                    <div class="add show_hide " id="add">
+                        <input id="Deposite_amnt" class="form-control" type="text" name="add">
+                        <a href="#" id="add_cash" onclick="mony()">Add Cash</a>
+                    </div>
+                </div>
+                <!--/col-md-3-->
+                <div class="col-md-3 ">
+                    <div class="Bank_features ">
+                        <a id="active-with " class="btn-btn-primary " onclick="hide() ">Get Cash</a>
+
+                    </div>
+                    <div id="withd" class="get show_hide ">
+                        <span><input id="Withdrawal_amnt" class="form-control"  type="number" name=" ">
+                        <a href="#" id="get_cash" onclick="add_de()">Get Cash</a></span>
+                    </div>
+                </div>
+                <!--/col-md-3-->
+
+            </div>
+            <!--/row-->
+        </div>
+        <!--/container-->
+    </article>
+</body>
+<script src="js/javaui.js "></script>
+
+</html>

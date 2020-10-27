@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.img-logo>img,
+.support,
+.left-side {
+    padding: 10px;
+}
+#deposite-val{
+	background: rgb(11 58 151);
+    width: 30%;
+    color: rgb(255 255 255);
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: 900;
+}
+.main-div{
+	position: relative;
+    top: -103px;
+
+}
+.Ac-details{
+	padding:5px 0px;
+}
+span {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.form-ac {
+    position: absolute;
+    width: 100%;
+    background: rgb(11 58 151);
+    font-size: 20px;
+    color: rgb(255 255 255);
+    z-index: 9999;
+    padding: 10px;
+    top: 88px;
+}
+
+h3,
+h4 {
+    color: white!important;
+    font-size: 40px!important;
+}
+
+.img-atm {
+    width: 90px;
+    padding: 10px;
+}
+
+.img-logo>img {
+    width: 250px;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+header {
+    background: rgb(43 136 229);
+}
+
+section {
+    background: rgb(45 160 250);
+}
+
+article {
+    background: rgb(11 58 151);
+}
+
+.logo-text,
+a {
+    font-family: 'Commissioner', sans-serif;
+}
+
+h1,
+h2,
+button {
+    font-size: 40px!important;
+    font-weight: bold!important;
+    color: white!important;
+    padding: 5px;
+}
+
+.enter_pin {
+    padding: 100px 0px;
+}
+
+.Bank_features>a {
+    padding: 30px 65px;
+    background: rgb(1 180 245);
+    border: none;
+    box-shadow: 0px 0px 32px -16px black;
+    font-size: 30px;
+    text-decoration: none!important;
+    cursor: pointer;
+}
+
+.Ac-details p {
+    color: rgb(1 180 245)!important;
+    letter-spacing: 2px;
+}
+
+.main-div,
+.Bank_features {
+    padding: 200px 0px;
+}
+
+.get,
+.add {
+    background: rgb(246 0 107);
+    padding: 10px;
+}
+
+a {
+    font-size: 20px;
+    color: white!important;
+}
+
+.add,
+.get {
+    display: none;
+}
